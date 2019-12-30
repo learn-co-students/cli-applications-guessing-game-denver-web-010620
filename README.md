@@ -60,7 +60,7 @@ require_relative "../guessing_game_cli"
 run_guessing_game
 ```
 
-All the file does is _load_ `guessing_game_cli.rb` so that is has access to the
+All the file does is _load_ `guessing_game_cli.rb` so that it has access to the
 `run_guessing_game` method, then it calls that method to start the application.
 
 You may be wondering: why is this necessary? Can't we just call
